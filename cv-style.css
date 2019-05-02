@@ -1,0 +1,52 @@
+body {
+  
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover; 
+
+}
+section {
+    border: 1px solid grey;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+div {
+display: block;
+padding: 100px;
+}
+h1 {
+    text-shadow: #FC0 1px 0 10px;
+}
+h3 {
+    text-shadow: rgb(139, 196, 158) 2px 0 5px;
+}
+button {
+    background-color: rgb(142, 233, 202);
+    margin-left: 8px;
+    margin-bottom: 8px;
+    border-color: rgb(44, 228, 228);
+    border-width: 4px;
+}
+a {
+    color: darkgreen;
+}
+a:visited {
+    color: darkgreen;
+}
+#image {
+    position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+}
+#pp {
+    height: 100px;
+    width: 100px;
+}
+#relative {
+    position: relative;
+  width: 400px;
+  height: 200px;
+  padding: 0px;
+}
